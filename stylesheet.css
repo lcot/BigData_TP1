@@ -1,0 +1,52 @@
+h1{
+	text-align: center;
+}
+
+p{
+	text-align: left;
+}
+
+.center{
+	padding=10px;
+	font-style: italic;
+	float: center;
+	width: 100%;
+	text-align:center;
+}
+	
+#contenu{
+    width:100%;
+	padding: 10px;
+    font:12px arial;
+	overflow:hidden;
+	border: 1px dashed #CCC;
+    border-collapse: collapse;
+}
+
+#tableText{
+	 
+}
+
+ table, th, td {
+	overflow:hidden;   
+}
+
+
+th, td{
+	width:30%;
+}
+
+td{
+	padding: 10px;
+	text-align: center;
+}
+
+.text{
+	border: 1px dashed #CCC;
+    border-collapse: collapse;
+}
+
+button{
+	margin: 10px;
+	float: center;
+}
