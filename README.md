@@ -12,3 +12,7 @@ The algorithm works as follow:
 - the function shuffle and sort regroups results of all map functions and orders results by alphabetical order
 - the function reduce join the results and counts for each words all occurances in all the text
 - results of the different functions are displayed  
+
+## Test the project
+
+Download the project, unzip it and open map_reduce.html in your favorite browser. 
