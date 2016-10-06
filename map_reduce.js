@@ -1,3 +1,4 @@
+//function treatment gets the text in vtext tag and calls input function 
 function treatment(){
 //we get the content of markup "vtext" wich is the text to treat
 var bloctext = document.getElementById("vtext");
@@ -6,6 +7,7 @@ var vtext = bloctext.value;
 input(vtext);
 }
 
+//function treatment2 calls the function input with a default text
 function treatment2(){
 
 var vtext = "To be, or not to be: that is the question:	Whether ’tis nobler in the mind to suffer" + 
@@ -46,6 +48,7 @@ var vtext = "To be, or not to be: that is the question:	Whether ’tis nobler in
 input(vtext);
 }
 
+//input function call the function map, then the function shuffleAndSort and then the function reduce
 function input(vtext){
 var i=0;
 var tab = new Array();
